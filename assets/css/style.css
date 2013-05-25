@@ -1,0 +1,326 @@
+body.hotsite{
+	background-color: #ecedee;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: 15px;
+	color: #333;
+}
+a{
+	color: #cc0000;
+}
+a:hover{
+	color: #555;
+}
+.firstElement{
+	margin-left: 0;
+}
+form .required.error{
+	border: 1px solid #F50;
+}
+.container{
+	margin-top: 20px;
+}
+.logo-index span{
+	display: none;
+}
+.logo-index{
+	background: url(../../assets/img/header_index_tanaloja.jpg) top left no-repeat;
+	width: 841px;
+	height: 184px;
+	margin:30px auto;
+}
+.areaSelectEstadoIndex{
+	width: 420px;
+	margin: 0 auto;
+}
+.areaSelectEstadoIndex.hotsite_newsletter{
+	margin-left: 340px;
+}
+.areaSelectEstadoIndex select{
+	height: 40px;
+	width: 300px;
+	color: #4f4f4f;
+	font-weight: 200;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.areaSelectEstadoIndex input{
+	width: 290px;
+	color: #4f4f4f;
+	font-weight: 200;
+	font-size: 24px;
+	height: 30px;
+}
+.areaSelectEstadoIndex input::-webkit-input-placeholder {
+   padding: 5px 5px;
+}
+
+.areaSelectEstadoIndex input:-moz-placeholder {  
+   padding: 5px 5px;  
+}
+.areaSelectEstadoIndex h3.lead{
+	font-size: 24px;
+	color: #4f4f4f;
+}
+.areaSelectEstadoIndex .btn.btn-large{
+	padding: 10px 14px;
+}
+
+.fullSearch{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+.fullSearch form,
+.fullSearch select{
+	margin-bottom: 0;
+}
+.fullSearch input,
+.fullSearch button{
+	padding: 12px;
+	font-size: 16px;
+	float: left;
+}
+.fullSearch input{
+	width: 560px;
+	margin-right: 5px;
+}
+.fullSearch button{
+	width: 108px;
+}
+.selecionaCidade p{
+	margin: 0;
+}
+
+
+/* Navbar */
+.navbar .container{
+	width: 940px;
+	margin-top: 0;
+}
+.navbar .navbar-inner{
+	background: whiteSmoke;
+	height: 98px;
+	border-radius: 0;
+}
+.navbar a.brand{
+	color: #DDD;
+	text-indent: -999px;
+	background: #cc0000 url('../img/logo-kompare.png') center center no-repeat;
+	background-size: 185px auto;
+	height: 78px;
+	width: 180px;
+	margin-left: 0px;
+	margin-right: 10px;
+	line-height: 82px;
+	font-size: 29px;
+	color: #ff6600;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	letter-spacing: 1px;
+	font-weight: 300;
+	
+}
+.navbar a.brand small{
+	font-size: 16px;
+	color: #999;
+}
+.navbar .searchBox{
+	display: inline-block;
+	float: left;
+
+}
+.navbar .searchBox button,
+.navbar .searchBox input{
+	padding: 10px 10px;
+	font-size: 18px;
+	float: left;
+}
+.navbar .searchBox input{
+	border-radius: 4px 0 0 4px;
+	width: 367px;
+	margin-left: 10px;
+}
+.navbar .searchBox button{
+	margin: 0 -1px;
+	border-radius: 0 4px 4px 0;
+}
+.navbar .selecionaCidade{
+	width: 200px;
+	float: right;
+	margin-top: -26px;
+}
+.navbar .selecionaCidade h3{
+	margin-bottom: 0;
+	color: #cc0000;
+}
+.navbar .selecionaCidade select{
+	width: 200px;
+	padding: 10px 0;
+	height: 40px;
+	font-size: 16px;
+}
+.navbar .nav > li > a{
+	text-shadow: 1px 1px 0px #fff;
+	color: #cc0000;
+	font-weight: bold;
+}
+.navbar .nav > li > a:hover{
+	color: #000;
+}
+
+/* MENU DE DEPARTAMENTOS */
+
+.menuDepartamentos .departamento{
+	text-align: center;
+	border: 1px solid #EEE;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.menuDepartamentos .departamento h4{
+	background: #EEE;
+	margin-bottom: 0;
+	padding: 10px;
+}
+.menuDepartamentos .departamento .bg-dept-image{
+	width: 180px;
+	height: 180px;
+	display: block;
+	background-size: 180px 180px;
+	margin: 20px auto 10px auto;
+}
+/* geral */
+.menuDepartamentos .departamento .bg-dept-image{
+	background-image: url(../img/notebook-samsung.jpg);
+}
+/* Eletronicos */
+.menuDepartamentos .dapartamento8 .bg-dept-image{
+	background-image: url(../img/dept_eletronicos.jpg);
+}
+/* Imoveis */
+.menuDepartamentos .dapartamento7 .bg-dept-image{
+	background-image: url(../img/dept_imovel.jpg);
+}
+/* Informatica */
+.menuDepartamentos .dapartamento6 .bg-dept-image{
+	background-image: url(../img/dpt_informatica.jpg);
+}
+
+
+/* MENU SIDEBAR */
+
+.menuSidebar .well{
+	max-width: 340px; 
+	padding: 8px 0;
+}
+.menuSidebar .well ul {
+	margin-bottom: 10px;
+}
+.menuSidebar .well ul li.nav-header,
+.menuSidebar .well ul li.nav-header a{
+	color: #000;
+	background-color: #EEE;
+}
+.menuSidebar .well ul li:last-of-type a{
+	color: #555;
+}
+
+/* DISPLAY PRODUTOS DEPARTAMENTO */
+
+.destaquePrincipal .shelfProductDisplay{
+	padding: 0 30px 20px 30px;
+}
+.destaqueSecundario .shelfProductDisplay{
+	padding: 10px 20px;
+}
+.destaqueSecundario .shelfProductDisplay:hover{
+	background: whiteSmoke;
+	border-radius: 4px;
+}
+.destaqueSecundario .shelfProductDisplay h5,
+.destaqueSecundario .shelfProductDisplay h6{
+	margin-bottom: 3px;
+}
+.destaqueSecundario .shelfProductDisplay h5 a{
+	color: #000;
+	font-size: 13px;
+	margin-top: 5px;
+	line-height: 16px;
+	display: block;
+}
+.destaqueSecundario .shelfProductDisplay .product-info{
+	text-align: center;
+}
+.destaqueSecundario .shelfProductDisplay .product-info p.preco{
+	color: #cc0000;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 5px 0;
+	background: whiteSmoke;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+/* DISPLAY PLANOS */
+
+.plano{
+	width: 200px;
+}
+.plano .lead{
+	font-size: 14px;
+	line-height: 20px;
+}
+.plano .preco{
+	font-size: 18px;
+	text-align: center;
+	margin: 15px auto;
+}
+.plano .btn{
+	width: 170px;
+}
+.plano ul{
+	list-style:circle;
+}
+
+.plano-escolhido-fixed{
+	position: fixed;
+	top: 140px;
+	margin-left: 580px;
+}
+
+/* DISPLAY Anuncio */
+
+.anuncio{
+	margin-top: 20px;
+}
+.anuncio .descricaoAnuncio{
+	margin-top: 20px;
+}
+.anuncio .info-anuncio .preco{
+	font-size: 16px;
+}
+.anuncio .info-anuncio .preco strong{
+	font-size: 22px;
+}
+.anuncio .info-anuncio h4.modelo-fabricante{
+	color: #999;
+}
+
+
+/* FOOTER */
+
+footer{
+	clear: both;
+	background: #cc0000;
+	color: #FFF;
+	padding: 5px 20px;
+	margin-top: 50px;
+	text-shadow:1px 1px 0 #000;
+	box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+footer a{
+	color: #FFF;
+	text-decoration: underline;
+}
+footer .container{
+	margin: 20px auto 10px auto;
+}

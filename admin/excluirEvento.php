@@ -1,0 +1,20 @@
+<?php
+include("incs/db.php");
+//chama a funcao de conexao com o banco de dados
+$conexao = conecta();
+
+/* recebe os parametros nas variaveis */
+$id_evento = $_GET['idEvento'];
+
+
+$query = "DELETE FROM tb_agenda WHERE id='$id_evento'";
+$result = mysql_query($query,$conexao) or die('Erro na query:  '.$query);
+
+
+header ('Content-type: application/json; charset=utf-8');
+//echo json_encode($rows);
+
+  /* fecha a conexao com o banco */
+  @mysql_close($conexao);
+
+?>

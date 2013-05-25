@@ -1,0 +1,61 @@
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: 15px;
+}
+.pull-center{
+	display: block;
+	float: none;
+	margin: 10px auto;
+	width: 400px;
+}
+.logo-cn{
+	/*background: url(../img/logo-tanaloja-cn.jpg) top center no-repeat;
+	text-indent: -999px;*/
+	width: 399px;
+	height: 152px;
+	margin-bottom: 30px;
+
+	font-size: 40px;
+	color: #ff6600;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	letter-spacing: 1px;
+	font-weight: 300;
+	text-align: center;
+	line-height: 160px;
+}
+.areaLogin{
+	float: none;
+	margin: 0 auto;
+}
+.areaLogin .control-label{
+	width: 90px;
+}
+.areaLogin .controls {
+	margin-left: 110px;
+}
+.areaLogin button[type="submit"] {
+	margin-right: 50px;
+}
+.firstElement{
+	margin-left: 0;
+}
+.fullSearch{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+.fullSearch input,
+.fullSearch button{
+	padding: 12px;
+	font-size: 16px;
+	float: left;
+}
+.fullSearch input{
+	width: 800px;
+	margin-right: 5px;
+}
+.fullSearch button{
+	width: 108px;
+}
+footer{
+	clear: both;
+}
